@@ -117,6 +117,7 @@ RUN echo deb http://deb.debian.org/debian buster-backports main >> /etc/apt/sour
         libswscale-dev \
         libtheora0 \
         libunshield-dev \
+        libyaml-cpp-dev \
         lsb-release \
         qt5-default \
         qtbase5-dev \
