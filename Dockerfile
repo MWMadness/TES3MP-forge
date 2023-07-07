@@ -126,7 +126,7 @@ RUN echo deb http://deb.debian.org/debian buster-backports main >> /etc/apt/sour
 
 RUN git config --global user.email "nwah@mail.com" \
     && git config --global user.name "N'Wah" \
-    && git clone https://github.com/GrimKriegor/TES3MP-deploy.git /deploy \
+    && git clone https://github.com/MWMadness/TES3MP-deploy.git /deploy \
     && mkdir /build
 
 VOLUME [ "/build" ]
