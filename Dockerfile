@@ -24,7 +24,7 @@ RUN apt-get -y build-dep \
     && cd /tmp \
     && git clone https://github.com/MyGUI/mygui.git mygui \
     && cd mygui \
-    && git checkout 82fa8d4fdcaa06cf96dfec8a057c39cbaeaca9c \
+    && git checkout 245b3b1fd77d04198bd065b5e68b0d01c1c41dca \
     && mkdir build \
     && cd build \
     && cmake \
