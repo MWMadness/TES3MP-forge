@@ -122,6 +122,7 @@ RUN echo deb http://deb.debian.org/debian buster-backports main >> /etc/apt/sour
         qt5-default \
         qtbase5-dev \
         qtbase5-dev-tools \
+        sqlite3 \
         unzip \
         wget
 
